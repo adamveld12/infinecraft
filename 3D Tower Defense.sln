@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{122C5DB9-96AF-4625-98F2-F9D843D68160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine_Content", "Engine_Content\Engine_Content.contentproj", "{B4A0CF05-9B72-4D10-B032-EEA1D6F6E9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockRLH", "BlockRLH\BlockRLH\BlockRLH.csproj", "{00DEC842-4729-4F4C-98B0-47F87D4DA559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockRLHContent", "BlockRLH\BlockRLHContent\BlockRLHContent.contentproj", "{A729097B-1BCF-4B1C-A335-33DEB02A6DCF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs22
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BlockRLH\\BlockRLH\\BlockRLH.csproj
+		SccProjectName1 = BlockRLH/BlockRLH
+		SccLocalPath1 = BlockRLH\\BlockRLH
+		SccProjectUniqueName2 = BlockRLH\\BlockRLHContent\\BlockRLHContent.contentproj
+		SccProjectName2 = BlockRLH/BlockRLHContent
+		SccLocalPath2 = BlockRLH\\BlockRLHContent
+		SccProjectUniqueName3 = Core\\Core.csproj
+		SccProjectName3 = Core
+		SccLocalPath3 = Core
+		SccProjectUniqueName4 = Engine_Content\\Engine_Content.contentproj
+		SccProjectName4 = Engine_Content
+		SccLocalPath4 = Engine_Content
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{122C5DB9-96AF-4625-98F2-F9D843D68160}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{122C5DB9-96AF-4625-98F2-F9D843D68160}.Debug|Any CPU.Build.0 = Debug|x86
+		{122C5DB9-96AF-4625-98F2-F9D843D68160}.Debug|x86.ActiveCfg = Debug|x86
+		{122C5DB9-96AF-4625-98F2-F9D843D68160}.Debug|x86.Build.0 = Debug|x86
+		{122C5DB9-96AF-4625-98F2-F9D843D68160}.Release|Any CPU.ActiveCfg = Release|x86
+		{122C5DB9-96AF-4625-98F2-F9D843D68160}.Release|x86.ActiveCfg = Release|x86
+		{122C5DB9-96AF-4625-98F2-F9D843D68160}.Release|x86.Build.0 = Release|x86
+		{B4A0CF05-9B72-4D10-B032-EEA1D6F6E9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A0CF05-9B72-4D10-B032-EEA1D6F6E9C6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B4A0CF05-9B72-4D10-B032-EEA1D6F6E9C6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A0CF05-9B72-4D10-B032-EEA1D6F6E9C6}.Release|x86.ActiveCfg = Debug|Any CPU
+		{00DEC842-4729-4F4C-98B0-47F87D4DA559}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{00DEC842-4729-4F4C-98B0-47F87D4DA559}.Debug|Any CPU.Build.0 = Debug|x86
+		{00DEC842-4729-4F4C-98B0-47F87D4DA559}.Debug|x86.ActiveCfg = Debug|x86
+		{00DEC842-4729-4F4C-98B0-47F87D4DA559}.Debug|x86.Build.0 = Debug|x86
+		{00DEC842-4729-4F4C-98B0-47F87D4DA559}.Release|Any CPU.ActiveCfg = Release|x86
+		{00DEC842-4729-4F4C-98B0-47F87D4DA559}.Release|x86.ActiveCfg = Release|x86
+		{00DEC842-4729-4F4C-98B0-47F87D4DA559}.Release|x86.Build.0 = Release|x86
+		{A729097B-1BCF-4B1C-A335-33DEB02A6DCF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A729097B-1BCF-4B1C-A335-33DEB02A6DCF}.Debug|x86.ActiveCfg = Debug|x86
+		{A729097B-1BCF-4B1C-A335-33DEB02A6DCF}.Release|Any CPU.ActiveCfg = Release|x86
+		{A729097B-1BCF-4B1C-A335-33DEB02A6DCF}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

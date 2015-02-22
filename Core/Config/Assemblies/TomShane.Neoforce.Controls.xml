@@ -1,0 +1,691 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TomShane.Neoforce.Controls</name>
+    </assembly>
+    <members>
+        <member name="T:TomShane.Neoforce.Controls.GamePadActions">
+            <summary>
+            Defines the gamepad actions mapping.
+            </summary>
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.Window">
+             <summary>
+      Represents a window or dialog box that makes up an application's user interface.
+    </summary>          
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.Control">
+            <summary>
+            Defines the base class for all controls.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Cursor">
+            <summary>
+            Gets or sets the cursor displaying over the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Controls">
+            <summary>
+            Gets a list of all child controls.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.MovableArea">
+            <summary>
+            Gets or sets a rectangular area that reacts on moving the control with the mouse.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.IsChild">
+            <summary>
+            Gets a value indicating whether this control is a child control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.IsParent">
+            <summary>
+            Gets a value indicating whether this control is a parent control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.IsRoot">
+            <summary>
+            Gets a value indicating whether this control is a root control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.CanFocus">
+            <summary>
+            Gets or sets a value indicating whether this control can receive focus. 
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Detached">
+            <summary>
+            Gets or sets a value indicating whether this control is rendered off the parents texture.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Passive">
+            <summary>
+            Gets or sets a value indicating whether this controls can receive user input events.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Movable">
+            <summary>
+            Gets or sets a value indicating whether this control can be moved by the mouse.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Resizable">
+            <summary>
+            Gets or sets a value indicating whether this control can be resized by the mouse.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.ResizerSize">
+            <summary>
+            Gets or sets the size of the rectangular borders around the control used for resizing by the mouse.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.ContextMenu">
+            <summary>
+            Gets or sets the ContextMenu associated with this control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.DoubleClicks">
+            <summary>
+            Gets or sets a value indicating whether this control should process mouse double-clicks.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.OutlineResizing">
+            <summary>
+            Gets or sets a value indicating whether this control should use ouline resizing.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.OutlineMoving">
+            <summary>
+            Gets or sets a value indicating whether this control should use outline moving.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Tag">
+            <summary>
+            Gets or sets the object that contains data about the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Margins">
+            <summary>
+            Gets or sets the value indicating the distance from another control. Usable with StackPanel control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.DesignMode">
+            <summary>
+            Gets or sets the value indicating wheter control is in design mode.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.GamePadActions">
+            <summary>
+            Gets or sets gamepad actions for the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.StayOnBack">
+            <summary>
+            Gets or sets the value indicating whether the control is allowed to be brought in the front.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.StayOnTop">
+            <summary>
+            Gets or sets the value indicating that the control should stay on top of other controls.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Name">
+            <summary>
+            Gets or sets a name of the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Focused">
+            <summary>
+            Gets or sets a value indicating whether this control has input focus.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.ControlState">
+            <summary>
+            Gets a value indicating current state of the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Suspended">
+            <summary>
+            Gets or sets a value indicating whether this control should receive any events.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.IsMoving">
+            <summary>
+            Gets or sets a value indicating whether this controls is currently being moved.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.IsResizing">
+            <summary>
+            Gets or sets a value indicating whether this controls is currently being resized.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Anchor">
+            <summary>
+            Gets or sets the edges of the container to which a control is bound and determines how a control is resized with its parent.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.ResizeEdge">
+            <summary>
+            Gets or sets the edges of the contol which are allowed for resizing.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Skin">
+            <summary>
+            Gets or sets the skin used for rendering the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Text">
+            <summary>
+            Gets or sets the text associated with this control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Alpha">
+            <summary>
+            Gets or sets the alpha value for this control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.BackColor">
+            <summary>
+            Gets or sets the background color for the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Color">
+            <summary>
+            Gets or sets the color for the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.TextColor">
+            <summary>
+            Gets or sets the text color for the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Enabled">
+            <summary>
+            Gets or sets a value indicating whether the control can respond to user interaction.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Visible">
+            <summary>
+            Gets or sets a value that indicates whether the control is rendered.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Parent">
+            <summary>
+            Gets or sets the parent for the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Root">
+            <summary>
+            Gets or sets the root for the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Left">
+            <summary>
+            Gets or sets the distance, in pixels, between the left edge of the control and the left edge of its parent.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Top">
+            <summary>
+            Gets or sets the distance, in pixels, between the top edge of the control and the top edge of its parent.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Width">
+            <summary>
+            Gets or sets the width of the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.Height">
+            <summary>
+            Gets or sets the height of the control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.MinimumWidth">
+            <summary>
+            Gets or sets the minimum width in pixels the control can be sized to.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.MinimumHeight">
+            <summary>
+            /// Gets or sets the minimum height in pixels the control can be sized to.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.MaximumWidth">
+            <summary>
+            /// Gets or sets the maximum width in pixels the control can be sized to.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Control.MaximumHeight">
+            <summary>
+            Gets or sets the maximum height in pixels the control can be sized to.
+            </summary>
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.Manager">
+            <summary>
+            Manages rendering of all controls.
+            </summary>  
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.#ctor(Microsoft.Xna.Framework.Game,Microsoft.Xna.Framework.GraphicsDeviceManager,System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the Manager class.
+            </summary>
+            <param name="game">
+            The Game class.
+            </param>
+            <param name="graphics">
+            The GraphicsDeviceManager class provided by the Game class.
+            </param>
+            <param name="skin">
+            The name of the skin being loaded at the start.
+            </param>
+            <param name="register">
+            Decides if the inherited methods from the DrawableGameComponent are called automatically.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.#ctor(Microsoft.Xna.Framework.Game,Microsoft.Xna.Framework.GraphicsDeviceManager,System.String)">
+            <summary>
+            Initializes a new instance of the Manager class and registers manager in the game class automatically.
+            </summary>
+            <param name="game">
+            The Game class.
+            </param>
+            <param name="graphics">
+            The GraphicsDeviceManager class provided by the Game class.
+            </param>
+            <param name="skin">
+            The name of the skin being loaded at the start.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.#ctor(Microsoft.Xna.Framework.Game,Microsoft.Xna.Framework.GraphicsDeviceManager)">
+            <summary>
+            Initializes a new instance of the Manager class, loads the default skin and registers manager in the game class automatically.
+            </summary>
+            <param name="game">
+            The Game class.
+            </param>
+            <param name="graphics">
+            The GraphicsDeviceManager class provided by the Game class.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.PrepareGraphicsDevice(System.Object,Microsoft.Xna.Framework.PreparingDeviceSettingsEventArgs)">
+            <summary>
+            Method used as an event handler for the GraphicsDeviceManager.PreparingDeviceSettings event.
+            </summary>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.Initialize">
+            <summary>
+            Initializes the controls manager.
+            </summary>    
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.SetSkin(System.String)">
+            <summary>
+            Sets and loads the new skin.
+            </summary>
+            <param name="name">
+            The name of the skin being loaded.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.SetSkin(TomShane.Neoforce.Controls.Skin)">
+            <summary>
+            Sets the new skin.
+            </summary>
+            <param name="skin">
+            The skin being set.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.BringToFront(TomShane.Neoforce.Controls.Control)">
+            <summary>
+            Brings the control to the front of the z-order.
+            </summary>
+            <param name="control">
+            The control being brought to the front.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.SendToBack(TomShane.Neoforce.Controls.Control)">
+            <summary>
+            Sends the control to the back of the z-order.
+            </summary>
+            <param name="control">
+            The control being sent back.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.Update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Called when the manager needs to be updated.
+            </summary>
+            <param name="gameTime">
+            Time elapsed since the last call to Update.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.Add(TomShane.Neoforce.Controls.Component)">
+            <summary>
+            Adds a component or a control to the manager.
+            </summary>
+            <param name="component">
+            The component or control being added.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.Remove(TomShane.Neoforce.Controls.Component)">
+            <summary>
+            Removes a component or a control from the manager.
+            </summary>
+            <param name="component">
+            The component or control being removed.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.Draw(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Renders all controls added to the manager.
+            </summary>
+            <param name="gameTime">
+            Time passed since the last call to Draw.
+            </param>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.DrawTexture">
+            <summary>
+            Draws texture resolved from RenderTarget used for rendering.
+            </summary>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.Manager.DrawTexture(Microsoft.Xna.Framework.Rectangle)">
+            <summary>
+            Draws texture resolved from RenderTarget to specified rectangle.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.InputOffset">
+            <summary>
+            Sets or gets input offset and ratio when rescaling controls in render target.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.InputMethods">
+            <summary>
+            Sets or gets input methods allowed for navigation.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Disposing">
+            <summary>
+            Gets a value indicating whether Manager is in the process of disposing.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Window">
+            <summary>
+            Returns the <see cref="T:System.Windows.Forms.Form"/> the game runs in.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Cursor">
+            <summary>
+            Gets or sets an application cursor.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Game">
+            <summary>
+            Returns associated <see cref="P:TomShane.Neoforce.Controls.Manager.Game"/> component.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.GraphicsDevice">
+            <summary>
+            Returns associated <see cref="P:TomShane.Neoforce.Controls.Manager.GraphicsDevice"/>.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Graphics">
+            <summary>
+            Returns associated <see cref="T:Microsoft.Xna.Framework.GraphicsDeviceManager"/>.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Renderer">
+            <summary>
+            Returns <see cref="P:TomShane.Neoforce.Controls.Manager.Renderer"/> used for rendering controls.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Content">
+            <summary>
+            Returns <see cref="T:TomShane.Neoforce.Controls.ArchiveManager"/> used for loading assets.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Input">
+            <summary>
+            Returns <see cref="T:TomShane.Neoforce.Controls.InputSystem"/> instance responsible for managing user input.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Components">
+            <summary>
+            Returns list of components added to the manager.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Controls">
+            <summary>
+            Returns list of controls added to the manager.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.GlobalDepth">
+            <summary>
+            Gets or sets the depth value used for rendering sprites.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.ToolTipDelay">
+            <summary>
+            Gets or sets the time that passes before the <see cref="T:TomShane.Neoforce.Controls.ToolTip"/> appears.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.MenuDelay">
+            <summary>
+            Gets or sets the time that passes before a submenu appears when hovered over menu item.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.DoubleClickTime">
+            <summary>
+            Gets or sets the maximum number of milliseconds that can elapse between a first click and a second click to consider the mouse action a double-click.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.TextureResizeIncrement">
+            <summary>
+            Gets or sets texture size increment in pixel while performing controls resizing.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.ToolTipsEnabled">
+            <summary>
+            Enables or disables showing of tooltips globally.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.LogUnhandledExceptions">
+            <summary>
+            Enables or disables logging of unhandled exceptions. 
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.InputEnabled">
+            <summary>
+            Enables or disables input processing.                   
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.RenderTarget">
+            <summary>
+            Gets or sets render target for drawing.                 
+            </summary>    
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.TargetFrames">
+            <summary>
+            Gets or sets update interval for drawing, logic and input.                           
+            </summary>    
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.KeyboardLayouts">
+            <summary>
+            Gets or sets collection of active keyboard layouts.     
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.UseGuide">
+            <summary>
+            Gets or sets a value indicating if Guide component can be used
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.KeyboardLayout">
+            <summary>
+            Gets or sets current keyboard layout for text input.    
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.SkinDirectory">
+            <summary>
+            Gets or sets the initial directory for looking for the skins in.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.LayoutDirectory">
+            <summary>
+            Gets or sets the initial directory for looking for the layout files in.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.SkinExtension">
+            <summary>
+            Gets or sets file extension for archived skin files.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.ScreenWidth">
+            <summary>
+            Gets current width of the screen in pixels.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.ScreenHeight">
+            <summary>
+            Gets current height of the screen in pixels.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.Skin">
+            <summary>
+            Gets or sets new skin used by all controls.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.ModalWindow">
+            <summary>
+            Returns currently active modal window.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.FocusedControl">
+            <summary>
+            Returns currently focused control.
+            </summary>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.Manager.RenderTargetUsage">
+            <summary>
+            Sets or gets the method which is used for clearing render targets.
+            </summary>
+        </member>
+        <member name="E:TomShane.Neoforce.Controls.Manager.DeviceSettingsChanged">
+            <summary>
+            Occurs when the GraphicsDevice settings are changed.
+            </summary>
+        </member>
+        <member name="E:TomShane.Neoforce.Controls.Manager.SkinChanging">
+            <summary>
+            Occurs when the skin is about to change.
+            </summary>
+        </member>
+        <member name="E:TomShane.Neoforce.Controls.Manager.SkinChanged">
+            <summary>
+            Occurs when the skin changes.
+            </summary>
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.ListBox">
+             <summary>
+      Represents a control to display a list of items.
+    </summary>          
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.ButtonBase">
+             <summary>
+      Implements the basic functionality common to button controls.
+    </summary>          
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.SizeMode">
+             <summary>
+      Specifies how an image is positioned within a control.
+    </summary>
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.ButtonMode">
+             <summary>
+      Specifies how an image is positioned within a control.
+    </summary>
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.Glyph">
+             <summary>
+      Represents an image on a button.
+    </summary>          
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.Button">
+             <summary>
+      Represents a button control.
+    </summary>          
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.ControlsList">
+            <summary>
+            Defines type used as a controls collection.
+            </summary>
+        </member>
+        <member name="T:TomShane.Neoforce.Controls.ArchiveManager">
+            <summary>
+      Loads managed objects from the binary files produced by the design time 
+      content pipeline the same way like <see cref="T:Microsoft.Xna.Framework.Content.ContentManager"/> does. 
+      Additionally it is capable of loading assets from a zip file.
+    </summary><remarks>
+      This class is based on Nick Gravelyn's EasyZip library.
+    </remarks>          
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.ArchiveManager.#ctor(System.IServiceProvider)">
+            <param name="serviceProvider">
+      The service provider that the <see cref="T:TomShane.Neoforce.Controls.ArchiveManager"/> should use to locate services.
+    </param><remarks>
+      By using this constructor <see cref="T:TomShane.Neoforce.Controls.ArchiveManager"/> works like classic <see cref="T:Microsoft.Xna.Framework.Content.ContentManager"/>. 
+    </remarks>              
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.ArchiveManager.#ctor(System.IServiceProvider,System.String)">
+            <param name="serviceProvider">
+      The service provider that the <see cref="T:TomShane.Neoforce.Controls.ArchiveManager"/> should use to locate services.
+    </param><param name="archive">
+      The path to the zip file, which will be used for reading assets from. 
+      If the parameter is set to null, <see cref="T:TomShane.Neoforce.Controls.ArchiveManager"/> works like 
+      classic <see cref="T:Microsoft.Xna.Framework.Content.ContentManager"/>.
+    </param>                  
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.ArchiveManager.OpenStream(System.String)">
+            <summary>
+      Opens a stream for reading the specified asset contained inside the archive.
+    </summary><param name="assetName">
+      The name of the asset being read.
+    </param><returns>
+      Returns the opened stream.
+    </returns><remarks>
+      Input for this method is an asset name, not the file name.
+    </remarks>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.ArchiveManager.GetAssetNames">
+            <summary>
+      Gets the list of all assets contained inside the archive.
+    </summary><returns>
+      Returns an array of strings.
+    </returns><remarks>
+      Asset names include full path.  
+    </remarks>
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.ArchiveManager.GetAssetNames(System.String)">
+            <summary>
+      Gets the list of assets contained inside the archive in the specified directory.
+    </summary><param name="directory">
+      The name of the directory being looked for assets in. If the parameter is null or empty string all assets are returned.
+    </param><returns>
+      Returns an array of strings.
+    </returns><remarks>
+      Asset names include full path.
+    </remarks>        
+        </member>
+        <member name="M:TomShane.Neoforce.Controls.ArchiveManager.GetFileStream(System.String)">
+            <summary>
+      Opens a stream for reading the specified filename contained inside the archive.
+    </summary><param name="filename">
+      The name of the file.
+    </param><returns>
+      Returns the opened stream.
+    </returns><remarks>
+      This method is looking for file names, not assets.  
+    </remarks>
+        </member>
+        <member name="P:TomShane.Neoforce.Controls.ArchiveManager.ArchivePath">
+            <summary>
+      Gets the path to the archive file associated with the manager.
+    </summary>          
+        </member>
+    </members>
+</doc>

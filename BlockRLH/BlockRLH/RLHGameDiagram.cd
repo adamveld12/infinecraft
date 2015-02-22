@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BlockRLH.BlockRLHGame">
+    <Position X="0.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAwAAAAAAAAAAAAAAAAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>BlockRLHGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Program" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RLH.Components.WorldInfo">
+    <Position X="11.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gARCBAAQIAAEAiAABAAAAAAAAAAAAACgBAAAIAAAEAw=</HashCode>
+      <FileName>Components\WorldInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Actors.Actor">
+    <Position X="17.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAFIgIAAQgKAAAACAABAAAAAAgAAgQAAQgA=</HashCode>
+      <FileName>Actors\Actor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Actors.ActorComponents.ActorComponent">
+    <Position X="24" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Actors\ActorComponents\ActorComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Components.SceneManager">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gCQQRAAAEAAAAgAAAAAAAAQAAAAAAgKBAIAEAAAAAAQ=</HashCode>
+      <FileName>Components\SceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Actors.Controller">
+    <Position X="20" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Actors.ActorComponents.CollisionComponent">
+    <Position X="27.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Actors\ActorComponents\CollisionComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Components.GameInfo">
+    <Position X="5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAACAAAAFAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Components\GameInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Actors.ActorComponents.HudComponent">
+    <Position X="26" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\ActorComponents\PlayerHudComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Actors.ActorComponents.RenderComponent">
+    <Position X="24.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Actors\ActorComponents\RenderComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Actors.PlayerController">
+    <Position X="20" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAAAAAAABAAAAAQAAAAAABACAAAAAAACAAQEA=</HashCode>
+      <FileName>Actors\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Actors.Pawn">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\Pawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Components.OctTreeNode">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAsAAAQCAAIJCgQAAIgAAAKgAAAAAAAgAAAAAEABAgA=</HashCode>
+      <FileName>Components\OctTreeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Actors.GameActors.Block">
+    <Position X="15.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Actors\GameActors\Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockRLH.Actors.GameActors.CubeCollisionComponent">
+    <Position X="30.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAIAAAAAAgAACAAAAAAAA=</HashCode>
+      <FileName>Actors\GameActors\CubeCollisionComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BlockRLH.Actors.DrawableActorProxy">
+    <Position X="9.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAgAAAAIIAAAAAAAABAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Actors\DrawableActorProxy.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
