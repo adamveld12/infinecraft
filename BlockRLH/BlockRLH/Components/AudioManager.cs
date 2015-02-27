@@ -68,7 +68,7 @@ class AudioManager : GameComponent
 
             SecondLastSong = LastSong;
             LastSong = NextSong;
-            MediaPlayer.Play(song[NextSong]);
+            //MediaPlayer.Play(song[NextSong]);
         }
     }
 }

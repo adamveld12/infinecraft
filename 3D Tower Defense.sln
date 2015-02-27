@@ -10,24 +10,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockRLHContent", "BlockRLH\BlockRLHContent\BlockRLHContent.contentproj", "{A729097B-1BCF-4B1C-A335-33DEB02A6DCF}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs22
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = BlockRLH\\BlockRLH\\BlockRLH.csproj
-		SccProjectName1 = BlockRLH/BlockRLH
-		SccLocalPath1 = BlockRLH\\BlockRLH
-		SccProjectUniqueName2 = BlockRLH\\BlockRLHContent\\BlockRLHContent.contentproj
-		SccProjectName2 = BlockRLH/BlockRLHContent
-		SccLocalPath2 = BlockRLH\\BlockRLHContent
-		SccProjectUniqueName3 = Core\\Core.csproj
-		SccProjectName3 = Core
-		SccLocalPath3 = Core
-		SccProjectUniqueName4 = Engine_Content\\Engine_Content.contentproj
-		SccProjectName4 = Engine_Content
-		SccLocalPath4 = Engine_Content
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
